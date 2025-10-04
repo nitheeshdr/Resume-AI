@@ -12,7 +12,7 @@ export default function Home() {
   return <main>
     <section>
       <div>
-        <p>nitheesh</p>
+        <p className="primary-gradient">Welcome to the Home Page!</p>
       </div>
     </section>
   </main>
