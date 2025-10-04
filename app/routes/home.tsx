@@ -20,7 +20,8 @@ export default function Home() {
         <h2>Review your submissions and check AI-powered feedback.</h2>
 
       </div>
-    </section>
+   
+
     {resumes.length > 0 && (
       <div className="resumea-section" >
         {resumes.map((resume) => (
@@ -29,6 +30,7 @@ export default function Home() {
       </div>
     )}
 
-
+    </section>
   </main>
+
 }
